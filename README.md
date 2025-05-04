@@ -10,28 +10,28 @@
 ファイルの内容を逆順にして新しいファイルに出力します。
 
 ```bash
-./file_manipulator reverse <入力ファイルパス> <出力ファイルパス>
+cargo run --bin file_manipulator reverse <入力ファイルパス> <出力ファイルパス>
 ```
 
 ### copy
 ファイルの内容を別のファイルにコピーします。
 
 ```bash
-./file_manipulator copy <入力ファイルパス> <出力ファイルパス>
+cargo run --bin file_manipulator copy <入力ファイルパス> <出力ファイルパス>
 ```
 
 ### duplicate-contents
 ファイルの内容を指定回数分複製します。
 
 ```bash
-./file_manipulator duplicate-contents <入力ファイルパス> <複製回数>
+cargo run --bin file_manipulator duplicate-contents <入力ファイルパス> <複製回数>
 ```
 
 ### replace-string
 ファイル内の特定の文字列を別の文字列に置換します。
 
 ```bash
-./file_manipulator replace-string <入力ファイルパス> <置換前の文字列> <置換後の文字列>
+cargo run --bin file_manipulator replace-string <入力ファイルパス> <置換前の文字列> <置換後の文字列>
 ```
 
 ## 注意事項
